@@ -1,5 +1,16 @@
 <p>admin-layout works!</p>
-<a routerLink="/admin/dashboard" routerLinkActive="active"></a>
-<a routerLink="/admin/users" routerLinkActive="active"></a>
-<a routerLink="/admin/profile" routerLinkActive="active"></a>
+<a routerLink="/admin/dashboard" routerLinkActive="active">
+  <mat-icon aria-hidden="false" aria-label="Dashboard Icon">dashboard</mat-icon>
+  Dashboard
+</a>
+<a routerLink="/admin/users" routerLinkActive="active">
+    <mat-icon aria-hidden="false" aria-label="User Icon">group</mat-icon>
+    List Users
+</a>
+<a routerLink="/admin/profile" routerLinkActive="active">
+    <mat-icon aria-hidden="false" aria-label="User Icon">person</mat-icon>
+    Profile</a>
+<a routerLink="/admin/login" routerLinkActive="active">
+    <mat-icon aria-hidden="false" aria-label="User Icon">close</mat-icon>
+    Logout</a>    
 <router-outlet></router-outlet>
